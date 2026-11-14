@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "allure run --open -- npx playwright test",
-    "test:headed": "allure run --open -- npx playwright test --headed",
-    "test:e2e": "allure run --open -- npx playwright test tests/e2e/purchase-journey.spec.js",
-    "report": "allure open"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:e2e": "playwright test tests/e2e/purchase-journey.spec.js",
+    "report": "allure generate allure-results --clean && allure open allure-report"
   },
   "keywords": [],
   "author": "",
