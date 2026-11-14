@@ -1,0 +1,11 @@
+{
+    "product1": {
+        "name": "Thor Hammer",
+        "price": 11.14
+    },
+    "priceSlider": {
+        "min": 0,
+        "max": 200,
+        "targetValue": 150
+    }
+}

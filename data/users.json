@@ -1,0 +1,40 @@
+{
+    "validCustomer": 
+      { 
+      "emailPrefix": "mosalah", 
+      "password": "pass456TRT@#",
+      "username": "moo salah",
+      "firstName": "moo",
+      "lastName": "salah",
+      "street": "Laverne Lane",
+      "country": "Egypt",
+      "city": "New Gailstad",
+      "state": "New Hampshire",
+      "postalCode": "10001",
+      "dateOfBirth": "1990-01-01",
+      "houseNumber": "655",
+      "phoneNumber": "0103987887976"
+      },
+      "updatedCustomer": 
+      {
+      "newphone": "0103987666676",
+      "newstreet": "456 Elm St",
+      "newcity": "Giza",
+      "newpostalCode": "20002"
+      },
+    "pageTitles": 
+      {
+    "account": "My account"
+      },
+    "messages": 
+      { 
+      "invalidLogin": "Invalid email or password",
+      "loginSuccess": "Login successful",
+      "updateSuccess": "Your profile is successfully updated!", 
+      "emptyFavorites": "There are no favorites yet. In order to add favorites, please go to the product listing and mark some products as your favorite."
+      },
+    "products": 
+      {
+      "SelectedProduct": "Thor Hammer"
+      }
+}
